@@ -1,0 +1,78 @@
+:root {
+    --gray: #505A5B;
+    --dark-gray: #343F3E;
+    --bg-color: #DCEDFF;
+    --secondary-bg: #94B0DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--gray);
+}
+
+header {
+    background-color: var(--bg-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    padding: 20px;
+    margin: 0 -20px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: var(--secondary-bg);
+}
+
+header nav {
+    margin: 10px 0;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-bg);
+    color: var(--dark-gray);
+    border-radius: 15px;
+}
+
+.hero {
+    background-image: url(../images/blue-wood-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-img img {
+    width: 15%;
+    height: 15%;
+}
+
+.hero-subtitle {
+    background-color: var(--secondary-bg);
+}
