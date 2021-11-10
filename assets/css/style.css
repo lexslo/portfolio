@@ -88,6 +88,72 @@ header nav ul li a:hover {
     right: 0;
 }
 
+.section {
+    padding: 10px;
+}
+
+.bio-text {
+    flex: 0 0 70%;
+    padding: 10px;
+}
+
+.work-examples {
+    margin: 5px 0;
+}
+
+.project-container {
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-project {
+    flex: 0 0 50%;
+}
+
+.secondary-container, .tertiary-container {
+    display: flex;
+}
+
+.secondary-container div, .tertiary-container div {
+    padding: 20px;
+}
+
+.contact-section {
+    margin: 5px 0;
+}
+
+.contact-section nav {
+    margin: 10px 0;
+    display: flex;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.contact-section nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-section nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+.contact-section nav ul li a:hover {
+    background: var(--secondary-bg);
+    color: var(--dark-gray);
+    border-radius: 15px;
+}
+
 /* UTILITY CLASSES */
 
 .flex-layout {
@@ -95,4 +161,11 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.subtitle-left {
+    flex: 0 0 25%;
+    border-right: 3px solid var(--secondary-bg);
+    padding: 10px;
+    margin: 0 1px 0 0;
 }
