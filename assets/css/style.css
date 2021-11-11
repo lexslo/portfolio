@@ -111,14 +111,45 @@ header nav ul li a:hover {
 
 .first-project {
     flex: 0 0 50%;
+    background-image: url(../images/run-buddy-ss.png);
+    background-size: cover;
+    padding: 100px 300px;
+    margin: 5px;
+    border: 2px solid var(--dark-gray);
 }
 
 .secondary-container, .tertiary-container {
     display: flex;
+    margin: 5px;
 }
 
 .secondary-container div, .tertiary-container div {
-    padding: 20px;
+    padding: 50px 140px;
+    margin: 0 5px;
+}
+
+.second-project {
+    background-image: url(../images/password-generator.png);
+    background-size: cover;
+    border: 2px solid var(--dark-gray);
+}
+
+.third-project {
+    background-image: url(../images/password-generator.png);
+    background-size: cover;
+    border: 2px solid var(--dark-gray);
+}
+
+.fourth-project {
+    background-image: url(../images/password-generator.png);
+    background-size: cover;
+    border: 2px solid var(--dark-gray);
+}
+
+.fifth-project {
+    background-image: url(../images/password-generator.png);
+    background-size: cover;
+    border: 2px solid var(--dark-gray);
 }
 
 .contact-section {
