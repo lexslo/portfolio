@@ -10,5 +10,6 @@ Create a deployed portfolio of work samples for a potential employer to review a
 - When the images of the applications are clicked the viewer is taken to that deployed application
 - When the page is resized or viewed on various screens and devices the viewer experiences a responsive layout that adapts to the viewport
 ### Layout
-
+![Portfolio Screenshot](assets/images/portfolio-ss.png)
 ### Link
+[Lex Portfolio](https://lexslo.github.io/portfolio/)
