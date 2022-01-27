@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $('.project-container').slick({
-        slidesToShow: 1
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '100px'
     });
 });

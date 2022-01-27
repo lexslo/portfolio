@@ -66,7 +66,7 @@ header nav ul li a:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    max-width: 600px;
+    max-width: 450px;
     min-width: 100px;
     margin: 10px;
     padding: 0 0 50px 0;
@@ -110,11 +110,11 @@ header nav ul li a:hover {
 }
 
 .project-container {
-    /* flex: 0 0 70%;
+    flex: 0 0 70%;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: 20px;
 }
 
@@ -139,6 +139,8 @@ header nav ul li a:hover {
 .container {
     padding: 10px 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
 .container p {
