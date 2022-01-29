@@ -7,7 +7,7 @@
 
 * {
     margin: 0;
-    padding: 5px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: var(--bg-color);
+    background-color: rgba(220, 237, 255, 0.5);
     padding: 20px;
 }
 
@@ -34,29 +34,29 @@ header h1 {
     border-radius: 0 5px 5px 0;
 }
 
-header nav {
+nav {
     margin: 10px 0;
     display: flex;
 }
 
-header nav ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
 }
 
-header a {
+a {
     text-decoration: none;
     color: var(--gray);
 }
 
-header nav ul li a {
+nav ul li a {
     padding: 10px 15px;
     font-size: 16px;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     background: var(--secondary-bg);
     color: var(--dark-gray);
     border-radius: 15px;
@@ -148,6 +148,10 @@ header nav ul li a:hover {
     text-align: left;
 }
 
+.container ul {
+    padding: 5px;
+}
+
 .project-name {
     background-color: var(--secondary-bg);
     color: var(--dark-gray);
@@ -160,34 +164,6 @@ header nav ul li a:hover {
     margin: 5px 0;
     padding: 35px;
     background-color: rgba(220, 237, 255, 0.5);
-}
-
-.contact-section nav {
-    margin: 10px 0;
-    display: flex;
-}
-
-.contact-section a {
-    text-decoration: none;
-    color: var(--gray);
-}
-
-.contact-section nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-}
-
-.contact-section nav ul li a {
-    padding: 10px 15px;
-    font-size: 16px;
-}
-
-.contact-section nav ul li a:hover {
-    background: var(--secondary-bg);
-    color: var(--dark-gray);
-    border-radius: 15px;
 }
 
 /* UTILITY CLASSES */
