@@ -1,126 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Lex Slovik - Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
-    <body>
-        <header class="flex-layout">
-            <h1>Lex Slovik</h1>
-        
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="./assets/resources/LS Resume 2022 v2.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <section id="about-me">
-            <div class="card bio">
-                <img src="./assets/images/lex-pfa.JPG" alt="" />
-            
-                <div class="bio-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I am a developer, sound engineer, and composer with 6+ years of experience working in Higher Education and 10+ years of customer service experience. I love to implement experimental sound design principles in a technical environment to expand the horizons of what is possible in the audio world. My goal is to combine creativity and logic in order to design new and exciting tools for musicians to use in today's rapidly evolving music production industry.
-                    </p>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lex Slovik - Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header class="flex-layout">
+        <h1>Lex Slovik</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./assets/resources/LS Resume 2022 v2.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <div class="card bio">
+            <img src="./assets/images/lex-pfa.JPG" alt="" />
+
+            <div class="bio-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a developer, sound engineer, and composer with 6+ years of experience working in Higher Education and 10+ years of customer service experience. I love to implement experimental sound design principles in a technical environment to expand the horizons
+                    of what is possible in the audio world. My goal is to combine creativity and logic in order to design new and exciting tools for musicians to use in today's rapidly evolving music production industry.
+                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="work" class="work-examples">
+    <section id="work" class="work-examples">
 
-            <div class="work-subtitle">
-                <h2>Work</h2>
+        <div class="work-subtitle">
+            <h2>Work</h2>
+        </div>
+
+        <div class="project-container">
+
+            <div class="card large-project slick-container">
+                <a href="https://github.com/lexslo/delazed" target="_blank">
+                    <img src="assets/images/delazed-default-gui.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>Delazed</h3></span>
+                        <ul>
+                            <li>Digital Audio Effect Plug-in</li>
+                            <li>Creator, UI/UX Design</li>
+                            <li>C++, JUCE</li>
+                        </ul>
+                    </div>
+                </a>
             </div>
 
-            <div class="project-container">
-                
-                <div class="card large-project slick-container">
-                    <a href="https://github.com/lexslo/delazed" target="_blank">
-                        <img src="assets/images/delazed-default-gui.png" alt="" />
-                        <div class="container">
-                            <span class="project-name"><h3>Delazed</h3></span>
-                            <ul>
-                                <li>Digital Audio Effect Plug-in</li>
-                                <li>C++, JUCE</li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card small-project slick-container">
-                    <a href="https://Charlton-H.github.io/quality-of-life-setup/" target="_blank">
-                        <img src="assets/images/kol-ss.png" alt="" />
-                        <div class="container">
-                            <span class="project-name"><h3>Koality of Life</h3></span>
-                            <ul>
-                                <li>Web Application</li>
-                                <li>HTML5, CSS, JavaScript, jQuery, APIs, Foundation</li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card small-project slick-container">
-                    <a href="https://lexslo.github.io/weather-dashboard/" target="_blank">
-                        <img src="assets/images/weather-dash-ss.png" alt="" />
-                        <div class="container">
-                            <span class="project-name"><h3>Weather Dashboard</h3></span>
-                            <ul>
-                                <li>Web Application</li>
-                                <li>HTML5, CSS, JavaScript, jQuery, API, Bootstrap</li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="card small-project slick-container">
-                    <a href="https://github.com/lexslo/profile-generator" target="_blank">
-                        <img src="assets/images/port-gen-ss.png" alt="" />
-                        <div class="container">
-                            <span class="project-name"><h3>Team Profile Generator</h3></span>
-                            <ul>
-                                <li>Command Line Application</li>
-                                <li>Node.js, JavaScript, Inquirer, Jest</li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card small-project slick-container">
-                    <a href="https://lexlo-express-notes.herokuapp.com/" target="_blank">
-                        <img src="assets/images/exp-note-taker.png" alt="" />
-                        <div class="container">
-                            <span class="project-name"><h3>Express Note Taker</h3></span>
-                            <ul>
-                                <li>Web Application</li>
-                                <li>Express.js, JavaScript, Heroku</li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
+            <div class="card small-project slick-container">
+                <a href="https://ran-dm.herokuapp.com/chat" target="_blank">
+                    <img src="assets/images/randm-ss.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>RANDM</h3></span>
+                        <ul>
+                            <li>Dating App</li>
+                            <li>Collaborator</li>
+                            <li>JavaScript, HTML, CSS, Handlebars</li>
+                            <li>mySQL, Sequelize, Express-session, bcrypt, sockets.io</li>
+                        </ul>
+                    </div>
+                </a>
             </div>
-        </section>
 
-        <section id="contact" class="contact-section flex-layout">
-            <div class="subtitle-left">
-                <h2>Contact</h2>
+            <div class="card small-project slick-container">
+                <a href="https://lexslo-making-waves.herokuapp.com/" target="_blank">
+                    <img src="assets/images/making-waves-ss.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>Making Waves</h3></span>
+                        <ul>
+                            <li>Music Tech Blog</li>
+                            <li>Creator</li>
+                            <li>JavaScript, HTML, CSS, Handlebars</li>
+                            <li>mySQL, Sequelize, Express-session, bcrypt</li>
+                        </ul>
+                    </div>
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="tel:9096938734">909.693.8734</a></li>
-                    <li><a href="mailto:lexi.slovik@gmail.com">lexi.slovik@gmail.com</a></li>
-                    <li><a href="https://www.linkedin.com/in/lex-slovik-018979186/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/lexslo" target="_blank">GitHub</a></li>
-                </ul>
-            </nav>
-        </section>
-    </body>
+
+            <div class="card small-project slick-container">
+                <a href="https://Charlton-H.github.io/quality-of-life-setup/" target="_blank">
+                    <img src="assets/images/kol-ss.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>Koality of Life</h3></span>
+                        <ul>
+                            <li>Web Application</li>
+                            <li>Collaborator</li>
+                            <li>HTML5, CSS, JavaScript, jQuery, APIs, Foundation</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card small-project slick-container">
+                <a href="https://lexslo.github.io/weather-dashboard/" target="_blank">
+                    <img src="assets/images/weather-dash-ss.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>Weather Dashboard</h3></span>
+                        <ul>
+                            <li>Web Application</li>
+                            <li>HTML5, CSS, JavaScript, jQuery, API, Bootstrap</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card small-project slick-container">
+                <a href="https://github.com/lexslo/profile-generator" target="_blank">
+                    <img src="assets/images/port-gen-ss.png" alt="" />
+                    <div class="container">
+                        <span class="project-name"><h3>Team Profile Generator</h3></span>
+                        <ul>
+                            <li>Command Line Application</li>
+                            <li>Node.js, JavaScript, Inquirer, Jest</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section flex-layout">
+        <div class="subtitle-left">
+            <h2>Contact</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="tel:9096938734">909.693.8734</a></li>
+                <li><a href="mailto:lexi.slovik@gmail.com">lexi.slovik@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/lex-slovik-018979186/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/lexslo" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </section>
+</body>
+
 </html>
