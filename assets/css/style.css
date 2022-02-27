@@ -181,3 +181,14 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 680px) {}
+
+@media screen and (max-width: 480px) {}
