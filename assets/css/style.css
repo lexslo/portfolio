@@ -27,11 +27,13 @@ header {
 
 header h1 {
     padding: 20px;
-    margin: 0 -20px;
     font-size: 48px;
     font-weight: bold;
-    background-color: var(--secondary-bg);
-    border-radius: 0 5px 5px 0;
+}
+
+.profile-img img {
+    border-radius: 100px;
+    object-fit: cover;
 }
 
 nav {
@@ -171,4 +173,5 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
