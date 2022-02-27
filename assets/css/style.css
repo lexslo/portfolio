@@ -30,7 +30,6 @@ header h1 {
     margin: 0 -20px;
     font-size: 48px;
     font-weight: bold;
-    background-color: var(--secondary-bg);
     border-radius: 0 5px 5px 0;
 }
 
@@ -70,7 +69,7 @@ nav ul li a:hover {
     min-width: 100px;
     margin: 10px;
     padding: 0 0 50px 0;
-    background-color: var(--bg-color);
+    background-color: rgba(220, 237, 255, 0.8);
 }
 
 .card:hover {
@@ -80,6 +79,10 @@ nav ul li a:hover {
 .card img {
     width: 100%;
     border-radius: 5px 5px 0 0;
+}
+
+.card ul {
+    list-style: none;
 }
 
 .section {
@@ -124,13 +127,11 @@ nav ul li a:hover {
 
 .large-project {
     flex: 1 1 60%;
-    padding: 10px;
     margin: 5px;
 }
 
 .small-project {
     flex: 1 1 50%;
-    padding: 10px;
     margin: 5px;
 }
 
@@ -151,11 +152,12 @@ nav ul li a:hover {
 }
 
 .project-name {
-    background-color: var(--secondary-bg);
+    background-color: rgba(255, 255, 255, 0.65);
     color: var(--dark-gray);
     padding: 10px;
     flex: 1 1 50%;
     border-radius: 5px;
+    text-align: center;
 }
 
 .contact-section {
