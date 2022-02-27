@@ -55,13 +55,20 @@ a {
 
 nav ul li a {
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
     background: var(--secondary-bg);
     color: var(--dark-gray);
     border-radius: 15px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -88,10 +95,9 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-.bio {
-    margin: 20px auto;
-    max-width: 450px;
-    min-width: 100px;
+.bio-card {
+    max-width: 350px;
+    max-height: 300px;
 }
 
 .bio-text {
