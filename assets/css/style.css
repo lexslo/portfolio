@@ -26,9 +26,7 @@ header {
 }
 
 header h1 {
-    padding: 20px;
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 3.3em;
 }
 
 .profile-img img {
@@ -78,7 +76,7 @@ nav ul li a:hover {
     max-width: 450px;
     min-width: 100px;
     margin: 10px;
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
     background-color: rgba(220, 237, 255, 0.8);
 }
 
@@ -91,12 +89,9 @@ nav ul li a:hover {
     border-radius: 5px 5px 0 0;
 }
 
-.card ul {
-    list-style: none;
-}
-
-.section {
-    padding: 10px;
+.card a:hover {
+    background-color: var(--secondary-bg);
+    transition: 0.5s;
 }
 
 .bio-card {
@@ -104,12 +99,17 @@ nav ul li a:hover {
     max-height: 300px;
 }
 
-.bio-text {
-    padding: 10px;
+.bio-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: rgba(52, 63, 62, 0.63);
+    color: var(--bg-color);
+    border-radius: 5px 5px 0 0;
 }
 
-.bio-text h2 {
-    margin-bottom: 10px;
+.bio-text {
+    padding: 10px;
 }
 
 .work-subtitle {
@@ -134,32 +134,23 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-.large-project {
-    flex: 1 1 60%;
-    padding: 10px;
-    margin: 5px;
-}
-
-.small-project {
+.project-card {
     flex: 1 1 50%;
-    padding: 10px;
     margin: 5px;
 }
 
-.container {
+.project-info {
     padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
 }
 
-.container p {
+.project-info p,
+.project-info ul {
     padding: 5px;
     text-align: left;
-}
-
-.container ul {
-    padding: 5px;
+    list-style: none;
 }
 
 .project-name {
@@ -167,7 +158,6 @@ nav ul li a:hover {
     color: var(--dark-gray);
     padding: 10px;
     flex: 1 1 50%;
-    border-radius: 5px;
     text-align: center;
 }
 
