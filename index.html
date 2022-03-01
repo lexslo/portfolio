@@ -10,30 +10,85 @@
 
 <body>
     <header class="flex-layout">
+        <div class="profile-img">
+            <img src="./assets/images/lex-pfa.JPG" alt="" height="130" width="135" />
+        </div>
         <h1>Lex Slovik</h1>
 
-        <nav>
+        <nav class="flex-layout">
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="./assets/resources/LS Resume 2022 v2.pdf" target="_blank">Resume</a></li>
+                <li><a href="./assets/resources/LS-Resume-2022.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about-me">
-        <div class="card bio">
-            <img src="./assets/images/lex-pfa.JPG" alt="" />
+    <section id="about-me" class="about-me">
 
-            <div class="bio-text">
+        <div class="card bio bio-card">
+            <div class="bio-title">
                 <h2>About Me</h2>
+            </div>
+            <div class="bio-text">
                 <p>
-                    I am a developer, sound engineer, and composer with 6+ years of experience working in Higher Education and 10+ years of customer service experience. I love to implement experimental sound design principles in a technical environment to expand the horizons
-                    of what is possible in the audio world. My goal is to combine creativity and logic in order to design new and exciting tools for the enjoyment of humanity.
+                    <ul class="list-space">
+                        <li>
+                            I am a developer, sound engineer, and composer with 6+ years of experience working in Higher Education and 10+ years of customer service experience.
+                        </li>
+                        <li>
+                            I love to implement experimental sound design principles in a technical environment to expand the horizons of what is possible in the audio world.
+                        </li>
+                        <li>
+                            My goal is to combine creativity and logic in order to design new and exciting tools for the enjoyment of humanity.
+                        </li>
+                    </ul>
                 </p>
             </div>
         </div>
+
+        <div class="card tech-skills bio-card">
+            <div class="bio-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="bio-text">
+                <p>
+                    <ul>
+                        <li><b>Tools and Software:</b></li>
+                        <li>Git, Heroku, Ableton Live, ProTools, JUCE, MaxMSP, Kyma</li>
+                        <br/>
+                        <li><b>Front End:</b></li>
+                        <li>HTML5, CSS, JavaScript, jQuery, C++, Handlebars.js CSS</li>
+                        <br/>
+                        <li><b>Frameworks:</b></li>
+                        <li>Bootstrap, Materialize, Foundation</li>
+                        <br/>
+                        <li><b>Back End:</b></li>
+                        <li>Node.js, Express.js, Jest, MySQL, Sequelize, RESTful APIs</li>
+                </p>
+            </div>
+        </div>
+
+        <div class="card soft-skills bio-card">
+            <div class="bio-title">
+                <h2>Soft Skills</h2>
+            </div>
+            <div class="bio-text">
+                <p>
+                    <ul class="list-space">
+                        <li>Imaginative, innovative, creative</li>
+                        <li>Patient and prolific troubleshooter</li>
+                        <li>Empathetic, compassionate</li>
+                        <li>Effective and efficient problem-solver</li>
+                        <li>Detail oriented, highly organized</li>
+                        <li>Self-motivated, productive, driven</li>
+                        <li>Love for learning and teaching</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
     </section>
 
     <section id="work" class="work-examples">
@@ -44,88 +99,102 @@
 
         <div class="project-container">
 
-            <div class="card large-project">
-                <a href="https://github.com/lexslo/delazed" target="_blank">
+            <div class="card project-card">
+                <div class="project-img">
                     <img src="assets/images/delazed-default-gui.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>Delazed</h3></span>
-                        <ul>
-                            <li>Digital Audio Effect Plug-in</li>
-                            <li>Creator, UI/UX Design</li>
-                            <li>C++, JUCE</li>
-                        </ul>
-                    </div>
-                </a>
+                </div>
+                <div class="project-name">
+                    <a href="https://github.com/lexslo/delazed" target="_blank">
+                        <h3>Delazed</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Digital Audio Effect Plug-in</li>
+                        <li>Creator, UI/UX Design</li>
+                        <li>C++, JUCE</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="card small-project">
-                <a href="https://ran-dm.herokuapp.com/chat" target="_blank">
-                    <img src="assets/images/randm-ss.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>RANDM</h3></span>
-                        <ul>
-                            <li>Dating App</li>
-                            <li>Collaborator</li>
-                            <li>JavaScript, HTML, CSS, Handlebars</li>
-                            <li>mySQL, Sequelize, Express-session, bcrypt, sockets.io</li>
-                        </ul>
-                    </div>
-                </a>
+            <div class="card project-card">
+                <img src="assets/images/randm-ss.png" alt="" />
+                <div class="project-name">
+                    <a href="https://ran-dm.herokuapp.com/chat" target="_blank">
+                        <h3>RANDM</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Dating App</li>
+                        <li>Collaborator</li>
+                        <li>JavaScript, HTML, CSS, Handlebars</li>
+                        <li>mySQL, Sequelize, Express-session, bcrypt, sockets.io</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="card small-project">
-                <a href="https://lexslo-making-waves.herokuapp.com/" target="_blank">
-                    <img src="assets/images/making-waves-ss.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>Making Waves</h3></span>
-                        <ul>
-                            <li>Music Tech Blog</li>
-                            <li>Creator</li>
-                            <li>JavaScript, HTML, CSS, Handlebars</li>
-                            <li>mySQL, Sequelize, Express-session, bcrypt</li>
-                        </ul>
-                    </div>
-                </a>
+            <div class="card project-card">
+                <img src="assets/images/making-waves-ss.png" alt="" />
+                <div class="project-name">
+                    <a href="https://lexslo-making-waves.herokuapp.com/" target="_blank">
+                        <h3>Making Waves</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Music Tech Blog</li>
+                        <li>Creator</li>
+                        <li>JavaScript, HTML, CSS, Handlebars</li>
+                        <li>mySQL, Sequelize, Express-session, bcrypt</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="card small-project">
-                <a href="https://Charlton-H.github.io/quality-of-life-setup/" target="_blank">
-                    <img src="assets/images/kol-ss.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>Koality of Life</h3></span>
-                        <ul>
-                            <li>Web Application</li>
-                            <li>Collaborator</li>
-                            <li>HTML5, CSS, JavaScript, jQuery, APIs, Foundation</li>
-                        </ul>
-                    </div>
-                </a>
+            <div class="card project-card">
+                <img src="assets/images/kol-ss.png" alt="" />
+                <div class="project-name">
+                    <a href="https://Charlton-H.github.io/quality-of-life-setup/" target="_blank">
+                        <h3>Koality of Life</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Web Application</li>
+                        <li>Collaborator</li>
+                        <li>HTML5, CSS, JavaScript, jQuery, APIs, Foundation</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="card small-project">
-                <a href="https://lexslo.github.io/weather-dashboard/" target="_blank">
-                    <img src="assets/images/weather-dash-ss.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>Weather Dashboard</h3></span>
-                        <ul>
-                            <li>Web Application</li>
-                            <li>HTML5, CSS, JavaScript, jQuery, API, Bootstrap</li>
-                        </ul>
-                    </div>
-                </a>
+            <div class="card project-card">
+                <img src="assets/images/weather-dash-ss.png" alt="" />
+                <div class="project-name">
+                    <a href="https://lexslo.github.io/weather-dashboard/" target="_blank">
+                        <h3>Weather Dashboard</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Web Application</li>
+                        <li>HTML5, CSS, JavaScript, jQuery, API, Bootstrap</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="card small-project">
-                <a href="https://github.com/lexslo/profile-generator" target="_blank">
-                    <img src="assets/images/port-gen-ss.png" alt="" />
-                    <div class="container">
-                        <span class="project-name"><h3>Team Profile Generator</h3></span>
-                        <ul>
-                            <li>Command Line Application</li>
-                            <li>Node.js, JavaScript, Inquirer, Jest</li>
-                        </ul>
-                    </div>
-                </a>
+            <div class="card project-card">
+                <img src="assets/images/port-gen-ss.png" alt="" />
+                <div class="project-name">
+                    <a href="https://github.com/lexslo/profile-generator" target="_blank">
+                        <h3>Team Profile Generator</h3>
+                    </a>
+                </div>
+                <div class="project-info">
+                    <ul>
+                        <li>Command Line Application</li>
+                        <li>Node.js, JavaScript, Inquirer, Jest</li>
+                    </ul>
+                </div>
             </div>
 
         </div>
