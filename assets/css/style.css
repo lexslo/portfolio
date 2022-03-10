@@ -79,6 +79,7 @@ nav ul li a:hover {
     max-width: 450px;
     min-width: 100px;
     background-color: rgba(220, 237, 255, 0.8);
+    overflow-y: scroll;
 }
 
 .card:hover {
