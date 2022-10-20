@@ -167,6 +167,16 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.card-bottom {
+    bottom: 0;
+}
+
+figure {
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
 .contact-section {
     margin: 5px 0;
     padding: 35px;
