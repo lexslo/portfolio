@@ -229,4 +229,8 @@ figure {
         width: 85vw;
         height: 52vh;
     }
+
+    figure {
+        width: 100%;
+    }
 }
