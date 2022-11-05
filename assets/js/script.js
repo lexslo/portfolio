@@ -1,0 +1,1 @@
+alert('This is an old portfolio. Please navigate to my new portfolio at https://lexslo.github.io/portfolio-v2/');
